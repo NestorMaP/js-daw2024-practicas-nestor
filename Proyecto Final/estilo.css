@@ -1,0 +1,37 @@
+div, header, article {
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width:160px; 
+    height:160px;
+}
+
+.unidades {
+    width:60px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+.card-image {
+
+    width:50px; 
+    height:50px;
+}
+
